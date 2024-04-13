@@ -1,5 +1,5 @@
 {
-  "name": "teleport-hq-first",
+  "name": "teleport-hq-first-xx",
   "version": "1.0.0",
   "description": "A nuxt project generated based on a UIDL document",
   "author": "teleporthq.io",
@@ -14,10 +14,7 @@
     "nuxt": "^2.15.8"
   },
   "dependencies": {
-    "@lottiefiles/vue-lottie-player": "1.0.9",
-    "@nuxt/components": "^2.2.1",
-    "consola": "^3.2.3",
-    "node-fetch-native": "^1.6.4",
-    "vue": "2.7.16"
+    "vue": "2.7.14",
+    "@lottiefiles/vue-lottie-player": "1.0.4"
   }
 }
