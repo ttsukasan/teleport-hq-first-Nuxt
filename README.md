@@ -51,3 +51,9 @@ yarn add node-fetch-native
     base: '/teleport-hq-first-Nuxt/'
   }
 ```
+
+https://develop365.gitlab.io/nuxtjs-2.8.X-doc/ja/faq/github-pages/
+
+だめだ
+
+画像をassetでなくstaticに置いてるから、あまりいけてないな
