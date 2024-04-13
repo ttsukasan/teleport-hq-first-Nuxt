@@ -148,7 +148,7 @@
                 ><span
                   >Lorem ipsum dolor sit amet aulla quis sem at nibh
                   elementum</span
-                ><br /><span> <span v-html="raw7hkh"></span></span></span></div
+                ><br /><span> <span v-html="rawxun3"></span></span></span></div
             ><div class="home-container07"
               ><svg viewBox="0 0 1024 1024" class="home-icon18">
                 <path
@@ -372,7 +372,7 @@ export default {
   props: {},
   data() {
     return {
-      raw7hkh: ' ',
+      rawxun3: ' ',
     }
   },
   head: {
