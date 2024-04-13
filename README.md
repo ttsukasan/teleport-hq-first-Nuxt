@@ -1,5 +1,7 @@
 # teleport-hq-first-Nuxt
 
+https://ttsukasan.github.io/teleport-hq-first-Nuxt/
+
 teleport hqからgithub出力(nuxt)
 
 yarn.lockがないので一度ローカルビルド
@@ -40,4 +42,12 @@ Cannot find module 'node-fetch-native' from ...
 
 ```
 yarn add node-fetch-native
+```
+
+画像が表示されない
+
+```
+  router: {
+    base: '/teleport-hq-first-Nuxt/'
+  }
 ```
