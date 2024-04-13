@@ -57,3 +57,14 @@ https://develop365.gitlab.io/nuxtjs-2.8.X-doc/ja/faq/github-pages/
 だめだ
 
 画像をassetでなくstaticに置いてるから、あまりいけてないな
+
+コミットするとnuxt.config.js や package.jsonも元に戻るのか
+
+
+ghpages カスタムドメインを試す
+
+route53でcnameレコード作成
+
+github pagesの設定でドメイン名をセット
+
+CNAME ファイル作成
