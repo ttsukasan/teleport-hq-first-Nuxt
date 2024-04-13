@@ -328,7 +328,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.18.4, @babel/parser@npm:^7.23.5, @babel/parser@npm:^7.24.0, @babel/parser@npm:^7.24.1, @babel/parser@npm:^7.24.4":
+"@babel/parser@npm:^7.23.5, @babel/parser@npm:^7.24.0, @babel/parser@npm:^7.24.1, @babel/parser@npm:^7.24.4":
   version: 7.24.4
   resolution: "@babel/parser@npm:7.24.4"
   bin:
@@ -1992,7 +1992,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lottiefiles/lottie-player@npm:^1.6.2":
+"@lottiefiles/lottie-player@npm:^1.5.7":
   version: 1.7.1
   resolution: "@lottiefiles/lottie-player@npm:1.7.1"
   dependencies:
@@ -2005,13 +2005,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lottiefiles/vue-lottie-player@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@lottiefiles/vue-lottie-player@npm:1.1.0"
+"@lottiefiles/vue-lottie-player@npm:1.0.9":
+  version: 1.0.9
+  resolution: "@lottiefiles/vue-lottie-player@npm:1.0.9"
   dependencies:
-    "@lottiefiles/lottie-player": "npm:^1.6.2"
+    "@lottiefiles/lottie-player": "npm:^1.5.7"
     vue: "npm:^2.6.12"
-  checksum: 10c0/05499dd054e4bc737869500995f8270c9fec69ddb95e129f06b5c99c6d9c90323565a4b11bd7851136bcd09fc608ab90cdfddae0a3c9b3fce13538fd8b4f3b97
+  checksum: 10c0/6f754a5d4b4ae03c8ddd8be1026b30f449b0ed0d909677bffee8305a02a736143cc884a54aaea87ff8aa9f34b22bd744f7f93dc957b733196db5a8da35ec310d
   languageName: node
   linkType: hard
 
@@ -2684,17 +2684,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 10c0/2b60535a7cf27574bbfb36777181ce11d76081b96ac8ac1a71e341146a8a2d7f83a1400ada1e2b54023fa1ec90e9d1c0ff2f353870401c70b74fe988844f6c9b
-  languageName: node
-  linkType: hard
-
-"@vue/compiler-sfc@npm:2.7.14":
-  version: 2.7.14
-  resolution: "@vue/compiler-sfc@npm:2.7.14"
-  dependencies:
-    "@babel/parser": "npm:^7.18.4"
-    postcss: "npm:^8.4.14"
-    source-map: "npm:^0.6.1"
-  checksum: 10c0/29fe06d8da1f8721488468653be671aaa48d63fcd03c47261164cb770b4ecbde1e1455e6affbc9ef062f2729da6988000ba470fc43a2f8a454a61d51af68725d
   languageName: node
   linkType: hard
 
@@ -7842,7 +7831,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch-native@npm:^1.4.1, node-fetch-native@npm:^1.6.1":
+"node-fetch-native@npm:^1.4.1, node-fetch-native@npm:^1.6.1, node-fetch-native@npm:^1.6.4":
   version: 1.6.4
   resolution: "node-fetch-native@npm:1.6.4"
   checksum: 10c0/78334dc6def5d1d95cfe87b33ac76c4833592c5eb84779ad2b0c23c689f9dd5d1cfc827035ada72d6b8b218f717798968c5a99aeff0a1a8bf06657e80592f9c3
@@ -11106,9 +11095,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "teleport-hq-first@workspace:."
   dependencies:
-    "@lottiefiles/vue-lottie-player": "npm:1.1.0"
+    "@lottiefiles/vue-lottie-player": "npm:1.0.9"
+    "@nuxt/components": "npm:^2.2.1"
+    consola: "npm:^3.2.3"
+    node-fetch-native: "npm:^1.6.4"
     nuxt: "npm:^2.15.8"
-    vue: "npm:2.7.14"
+    vue: "npm:2.7.16"
   languageName: unknown
   linkType: soft
 
@@ -11825,17 +11817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:2.7.14":
-  version: 2.7.14
-  resolution: "vue@npm:2.7.14"
-  dependencies:
-    "@vue/compiler-sfc": "npm:2.7.14"
-    csstype: "npm:^3.1.0"
-  checksum: 10c0/8eb326718c445eb5900d08e2f5a2d86b493d475d3a79f49695066092afa3176d2aad4db98682b3c5432f6fffb92719a124b7e137264e71d5b9be14d5193222c6
-  languageName: node
-  linkType: hard
-
-"vue@npm:^2.6.12, vue@npm:^2.7.16":
+"vue@npm:2.7.16, vue@npm:^2.6.12, vue@npm:^2.7.16":
   version: 2.7.16
   resolution: "vue@npm:2.7.16"
   dependencies:
